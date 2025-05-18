@@ -1,0 +1,20 @@
+The OpenAPI Specification (OAS), formerly known as the Swagger Specification, is a standard format for describing REST APIs. It allows developers to design, document, and consume APIs in a language-agnostic way. OpenAPI specifications are written in JSON or YAML and can be used to generate API documentation, client and server stubs, and test cases. 
+
+
+- Standardized way to define the structure and behaviour of any HTTP API.
+- It is not tied to any programming language make it versatile for various API implementations
+- Machine readable  - easily parsed by computers. facilitate automation and code generation.
+- human readable - easily designed to be understand by humans.
+
+Benefits of Open API:
+
+improved documentation
+reduced development time
+easier api consumption
+testing and automation
+
+Simply your API lifecyle   design, develop and deploy faster  - built on Swagger
+
+REST API is a style of web service architecuture, Open API is a specifiction for describing and 
+documenting the REST API. They are complementary tools, not alternatives.
+

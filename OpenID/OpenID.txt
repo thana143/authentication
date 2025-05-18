@@ -1,0 +1,29 @@
+Authentication protocol based on Oauth 2.0 framework.
+
+https://openid.net/developers/how-connect-works/
+
+OpenID Connect enables an Internet identity ecosystem through easy integration and support, security and privacy-preserving configuration, interoperability, wide support of clients and devices, and enabling any entity to be an OpenID Provider (OP).
+The OpenID Connect protocol, in abstract, follows these steps:
+
+End user navigates to a website or web application via a browser.
+End user clicks sign-in and types their username and password.
+The RP (Client) sends a request to the OpenID Provider (OP).
+The OP authenticates the User and obtains authorization.
+The OP responds with an Identity Token and usually an Access Token.
+The RP can send a request with the Access Token to the User device.
+The UserInfo Endpoint returns Claims about the End-User.
+
+
+--
+
+Public Providers:
+Google: One of the largest providers, offering various authentication options including email, Google accounts, and more. 
+Microsoft: Provides authentication using Microsoft accounts and other services like Azure Active Directory. 
+Yahoo: Offers authentication through Yahoo! accounts. 
+PayPal: Allows authentication using PayPal accounts. 
+Amazon: Provides authentication via Amazon accounts (details might be provider-specific). 
+Salesforce: Uses Salesforce OAuth/OIDC for user authentication. 
+Okta: A popular cloud-based identity provider, offering flexible authentication options. 
+Auth0: Another cloud-based identity provider, Auth0 offering a range of OIDC features. 
+Keycloak: An open-source identity and access management solution that can act as an OIDC provider. 
+Ping Identity: Provides identity solutions, including OIDC providers for secure access. 
